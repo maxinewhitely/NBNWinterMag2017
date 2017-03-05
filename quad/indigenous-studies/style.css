@@ -1,15 +1,13 @@
 article header.article-meta{
-    background-color: #A5A69D;
-    /*background-image: url();*/
-    /*background-size: cover;
+    background-color: black;
+    /*background-image: url();
+    rgba(169, 199, 230,1)*/
+    background-size: cover;
     background-position: 30% 0;
     height: 100%;
-    min-height: 1000px;*/
+    min-height: 700px;
     color: white;
     text-shadow: 0 0 10px black;
     /*padding-top: 650px;*/
-    padding-bottom: 200px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-
-
-

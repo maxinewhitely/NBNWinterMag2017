@@ -1,11 +1,35 @@
 article header.article-meta{
-    background-color: #A5A69D;
-    background-image: url(cover_2000.jpg);
-    background-size: cover;
-    background-position: 30% 0;
+    background-color: #aac4ce;
+    background-image: url(cover_2000.gif);
+    background-size: 100%;
+    /*background-position: center;*/
     height: 100%;
-    min-height: 1000px;
+    min-height: 700px;
     color: white;
     text-shadow: 0 0 10px black;
-    padding-top: 650px;
+    padding-top: 700px;
+    background-repeat: no-repeat;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+
+.container2 {
+	border-top: 3px solid rgba(169, 199, 230,1);
+	border-bottom: 3px solid rgba(169, 199, 230,1);
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2#menu {
+	text-align: center;
+	color: grey; 
+	text-shadow: 1px 1px rgba(169, 199, 230,1);
+	padding-bottom: 5px;
 }
