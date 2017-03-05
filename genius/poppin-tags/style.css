@@ -1,0 +1,22 @@
+article header.article-meta{
+    background-color: rgba(250, 243, 145, 1);
+    background-image: url(cover_2000.gif);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*min-height: 1000px;*/
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 450px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+#first {
+	margin-right: 7px;
+}
