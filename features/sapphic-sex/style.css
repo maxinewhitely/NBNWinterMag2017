@@ -1,0 +1,31 @@
+article header.article-meta{
+    background-color: #E7DAD4;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  filter: blur(0px);
+}
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 40px; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pullquote-right, .pullquote-left {
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+}
+
+p.pullquote-right, p.pullquote-left {
+	text-shadow: 2px 2px grey;
+}
