@@ -10,38 +10,69 @@ article header.article-meta{
     padding-top: 650px;
 }
 
-.columns {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
 
-    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
 
-    -webkit-column-rule-color: rgba(169, 199, 230,1); /* Chrome, Safari, Opera */
-    -moz-column-rule-color: rgba(169, 199, 230,1); /* Firefox */
-    column-rule-color: rgba(169, 199, 230,1);
+.sidebarer-left, .sidebarer-right {
+    width: 300px;
 }
 
-.flexleft {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-
+.sidebarer-right-blue{
+    float: right;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid rgba(169, 199, 230,1);
+    margin-right: -100px;
 }
+
+.sidebarer-right-red{
+    float: right;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid red;
+    margin-right: -100px;
+}
+
+
+.sidebarer-left-blue{
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-left: 3px solid rgba(169, 199, 230,1);
+    margin-left: -100px;
+}
+
+.sidebarer-left-red{
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-left: 3px solid red;
+    margin-left: -100px;
+}
+
+
+
+
+.flex-photoleft {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .flexright {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-}
-
-.flexphoto {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
 }
