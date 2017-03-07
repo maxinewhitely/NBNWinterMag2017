@@ -70,23 +70,25 @@
         <article>
 
             <header class="article-meta">
-                <video autoplay id="myVideo">
+                <video autoplay playsinline muted id="myVideo">
                     <source src="Repaving final.mp4" type="video/mp4">
-                    </video>
-                    <div class="overlay-desc" id="displaynone">
-                        <div class="headline">
-                            <h3 class="byline">By Rachel Frazin</h3>
-                        </div>
+                </video>
+                <div class="overlay-desc" id="displaynone">
+                    <div class="headline">
+                        <h3 class="byline">By Rachel Frazin</h3>
                     </div>
+                </div>
 
-                    <p class="photo-byline byline">Video by <b>Mia Zanzucchi</b>, production by <b>Maxine Whitely</b> / North by Northwestern</p>
+                <p class="photo-byline byline">Video by <b>Mia Zanzucchi</b>, production by <b>Maxine Whitely</b> / North by Northwestern</p>
+
+            </header>
 
                     <script type="text/javascript">
                         var vid = document.getElementById("myVideo");
 
+
                         vid.addEventListener('playing', function(){
                             document.getElementById('displaynone').style.display = 'none';
-                            vid.style.filter = 'blur(0px)';
                         });
 
             //vid.addEventListener('pause', function(){
@@ -97,8 +99,17 @@
             vid.addEventListener('ended', function(){
                 document.getElementById('displaynone').style.display = 'flex';
             });
-        </script>
-    </header>
+
+            </script>
+
+            <script src="dist/iphone-inline-video.min.js">
+            enableInlineVideo(vid);
+            enableInlineVideo(video, {
+                iPad: true
+            });
+            </script>
+
+        
 
     <div class="blackboard">
         <p class="lead">In August 2014, the city of Evanston introduced the Sheridan Road improvement project. One of the project’s priorities was the addition of bike lanes. But almost three years later, the bike lane construction plans are still just that – plans. After the death of Northwestern freshman Chuyuan “Chu” Qiu, who was hit by a cement truck while biking on Sheridan Road in September, the question re-emerged: why are there still no bike lanes?</p>
