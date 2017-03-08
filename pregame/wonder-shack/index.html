@@ -9,7 +9,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Little shack of wonders" />
     <meta property="og:description" content="Dilapidated but beloved, Shanley Pavilion is home to countless student-run productions." />
-    <meta property="og:image" content="http://apps.northbynorthwestern.com/magazine/2017/winter/pregame/wonder-shack/shack2.mp4" />
+    <meta property="og:image" content="http://apps.northbynorthwestern.com/magazine/2017/winter/pregame/wonder-shack/littleshackofwonders.png" />
     <meta name="author" content="Elizabeth Phillips" />
     <meta name="twitter:card" content="summary_large_image" />         <meta name="twitter:site" content="@nbn_tweets" />                  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,14 +66,15 @@
         <article>
 
             <header class="article-meta">
-                <video autoplay id="myVideo">
-                    <source src="shack2.mp4" type="video/mp4">
+                <video autoplay muted playsinline id="myVideo">
+                        <source src="shack2.mp4" type="video/mp4">
                     </video>
                     <div class="overlay-desc" id="displaynone">
                         <div class="headline">
                             <h3 class="byline">By Elizabeth Phillips</h3>
                         </div>
                     </div>
+            </header>
 
                     <p class="photo-byline byline">Video by <b>Mia Zanzucchi</b>, production by <b>Maxine Whitely</b> / North by Northwestern</p>
 
@@ -82,19 +83,19 @@
 
                         vid.addEventListener('playing', function(){
                             document.getElementById('displaynone').style.display = 'none';
-                            vid.style.filter = 'blur(0px)';
                         });
-
-            //vid.addEventListener('pause', function(){
-              //  document.getElementById('displaynone').style.display = 'flex';
-                //vid.style.filter = 'blur(5px)';
-            //});
 
             vid.addEventListener('ended', function(){
                 document.getElementById('displaynone').style.display = 'flex';
             });
         </script>
-    </header>
+
+        <script src="../../dist/iphone-inline-video.min.js">
+            enableInlineVideo(vid);
+            enableInlineVideo(video, {
+                iPad: true
+            });
+            </script>
 
     <div class="blackboard">
         <p class="lead">From the outside, Shanley Pavilion looks like the kind of shed someone would store their lawnmower in during the winter. When you step inside the structure between performances, it’s devoid of light because every surface, even the windows, is painted black. Shanley looks like it was abandoned years ago. It’s hard to believe that anything exciting has ever happened in such a dark and small place, yet it currently hosts a constant rotation of fine arts performances, from comedy groups to dance troupes to theatrical productions. </p>
@@ -104,7 +105,11 @@
 
             But most students don’t know just how versatile this space truly is. Originally built in 1943, Shanley Hall housed a dining hall and recreation center during World War II for the men of the V-5, V-8 and V-12 Navy Programs. Between the war and the early 1970s, it became two classrooms for post-war students, then a lunchroom for commuters, a university book store and even a student-run hippie coffee shop called Amazing Grace. </p><p>
 
-            Many students haven’t been particularly fond of the building’s aesthetic. In 1966, former student and associate editor for <em>The Daily Northwestern</em> David Nelson ranted, “The squat, wood frame building is not attractive! No matter what season, or what time of day, it looks like a shadow, or outgrowth of Lunt Hall.” Shep Shanley, son of the building’s namesake, told <em>The Daily</em> in 1983 that “the building is a shack” and “should have been destroyed in 1946.” </p><p>
+            Many students haven’t been particularly fond of the building’s aesthetic. In 1966, former student and associate editor for <em>The Daily Northwestern</em> David Nelson ranted, “The squat, wood frame building is not attractive! No matter what season, or what time of day, it looks like a shadow, or outgrowth of Lunt Hall.” Shep Shanley, son of the building’s namesake, told <em>The Daily</em> in 1983 that “the building is a shack” and “should have been destroyed in 1946.” </p>
+
+            <aside class="pullquote pullquote-right"><p>“You think of [Shanley] as this jack-of-all-trades. You can kind of make it do whatever you want.” - Will Altabef</p></aside>
+
+            <p>
 
             Despite the lack of appreciation, Shanley remained on campus as the university tore down and replaced other buldings. After a short stint as the home of the Interpretation Department’s Food and Fiction Dinner Theater Program, it became a popular site for all kinds of student productions. </p><p>
 
@@ -114,9 +119,11 @@
 
             But no one could have foreseen Shanley becoming the creative hub it is today – the building was never supposed to sustain anything more than the barracks of NROTC. According to Harvey Young, chair of the Northwestern Theatre Department, the building was meant to be temporary, but over time the Northwestern community repurposed it. </p><p>
 
-            “There’s always been this idea that Shanley is a temporary structure and that maybe one day it will go away,” Young says. “And it’s still here.” </p><p>
+            “There’s always been this idea that Shanley is a temporary structure and that maybe one day it will go away,” Young says. “And it’s still here.” </p>
 
-            While Shanley has managed to stick around, it’s also started to break down. In 2004, a a falling light hit a Northwestern senior, who had to go to the hospital. Two different renovations, one in the summer of 2002 and one during the 2005-2006 school year, were desperately needed. According to current students, Shanley needs further repair – the dressing rooms are falling apart, toilets break in the middle of shows and the floor is patchy from all the different sets. </p><p>
+            <figure><img src="shanley.jpg"><figcaption>Photo by Emma Danbury</figcaption></figure>
+
+            <p>While Shanley has managed to stick around, it’s also started to break down. In 2004, a a falling light hit a Northwestern senior, who had to go to the hospital. Two different renovations, one in the summer of 2002 and one during the 2005-2006 school year, were desperately needed. According to current students, Shanley needs further repair – the dressing rooms are falling apart, toilets break in the middle of shows and the floor is patchy from all the different sets. </p><p>
 
             “There are screws and hooks in the ceiling where we don’t know where they came from or if they’re going to fall out if we try and tie something to them,” says Communication junior and StuCo equipment manager Isadora Porte. Describing what sounds like a quirky shot in a Wes Anderson movie, Strauss says the only way to control the heat is to stand on a toilet in the boy’s bathroom and pull a lever from the ceiling. </p><p>
 

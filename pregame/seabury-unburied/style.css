@@ -9,3 +9,18 @@ article header.article-meta{
     text-shadow: 0 0 10px black;
     padding-top: 650px;
 }
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.photogallery {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container div {
+	margin-left: 5px;
+}

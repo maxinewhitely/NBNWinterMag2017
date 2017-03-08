@@ -10,15 +10,21 @@ video {
   height: auto;
   vertical-align: middle;
   width: 100%;
-  filter: contrast(70%);
+  filter: contrast(1.3);
 }
 .overlay-desc {
   background: rgba(0,0,0,0);
-  position: absolute;
+  position: relative;
   top: 0px; right: 0; bottom: 40px; left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  main article header.article-meta>.photo-byline {
+    bottom: -4em;
+  }
 }
 
 .headline {
@@ -26,4 +32,11 @@ video {
   bottom: 0;
   left: 0;
   padding-left: 54px;
+}
+
+.IIV::-webkit-media-controls-play-button,
+.IIV::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
 }

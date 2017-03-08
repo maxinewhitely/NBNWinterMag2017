@@ -572,6 +572,32 @@ main article header.article-meta>.photo-byline{
     padding-left: 20px;
 }
 
+.blackboard .image-right-rescale{
+    float: right;
+    margin-right: -100px;
+    border-left: rgba(169, 199, 230,1) solid 3px;
+    padding-left: 20px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+.blackboard .image-left{
+    float: left;
+    margin-left: -100px;
+    border-right: rgba(169, 199, 230,1) solid 3px;
+    padding-right: 20px;
+}
+
+.blackboard .image-left-rescale{
+    float: left;
+    margin-left: -100px;
+    border-right: rgba(169, 199, 230,1) solid 3px;
+    padding-right: 20px;
+    width: 600px;
+    margin-right: 20px;
+}
+
 .blackboard .image-right figcaption{
     text-align: right;
 }
