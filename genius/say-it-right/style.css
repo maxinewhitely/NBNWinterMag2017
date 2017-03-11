@@ -26,3 +26,12 @@ video {
   position: absolute;
   bottom: 0;
 }
+
+.image-left-rescaler{
+    float: left;
+    margin-left: -100px;
+    padding-left: 20px;
+    width: 200px;
+    margin-right: 20px;
+    border-right: rgba(169, 199, 230,1) solid 3px;
+}

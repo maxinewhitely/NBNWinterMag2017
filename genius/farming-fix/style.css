@@ -9,3 +9,19 @@ article header.article-meta{
     text-shadow: 0 0 10px black;
     padding-top: 650px;
 }
+
+.image-left-rescaler{
+    float: left;
+    margin-left: -200px;
+    padding-left: 20px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.image-right-rescaler{
+    float: right;
+    margin-right: -200px;
+    padding-right: 20px;
+    width: 300px;
+    margin-left: 20px;
+}
