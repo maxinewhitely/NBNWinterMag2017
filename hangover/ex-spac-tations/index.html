@@ -20,6 +20,7 @@
         
         <link rel="stylesheet" href="../../universal.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         
 
         
@@ -28,7 +29,7 @@
     <body>
             <header class="masthead masthead-down"> 
                 <div class="logo"> 
-                    <a href="//apps.northbynorthwestern.com/magazine/2016/spring/"><img class=nbn-logo src="//apps.northbynorthwestern.com/nbn_logo_black.svg" alt=""></a> 
+                    <a href="//apps.northbynorthwestern.com/magazine/2017/winter/"><img class=nbn-logo src="http://nbn-housing.s3.amazonaws.com/static/img/nbn-logo.png" alt=""></a> 
                 </div> 
                 
                 <nav class="section-nav">
@@ -84,6 +85,7 @@
                     <p class="photo-byline byline">Video by Mia Zanzucchi / North by Northwestern</p>
                 
 <script type="text/javascript">
+if ( $(window).width() > 500) {      
 var vid = document.getElementById("myVideo");
 
 vid.addEventListener('playing', function(){
@@ -99,6 +101,7 @@ vid.addEventListener('pause', function(){
 vid.addEventListener('ended', function(){
     document.getElementById('displaynone').style.display = 'flex';
 });
+}
 </script>
 
             </header>

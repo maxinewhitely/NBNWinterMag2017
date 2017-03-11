@@ -73,7 +73,7 @@
             
         
             <header class="article-meta">
-            <video autoplay id="myVideo">
+            <video autoplay muted looped playsinline id="myVideo">
                 <source src="horse.mp4" type="video/mp4">
             </video>
             <div class="overlay-desc" id="displaynone">
@@ -86,10 +86,14 @@
             
             <p class="photo-byline byline">Video by <b>Mia Zanzucchi</b> / North by Northwestern</p>
                 
-            <script type="text/javascript">
-            var vid = document.getElementById("myVideo");
-
+            <script src="../../dist/iphone-inline-video.min.js">
+                    var vid = document.getElementById("myVideo");
+                    enableInlineVideo(vid);
+                    enableInlineVideo(video, {
+                        iPad: true
+                    });
             </script>
+
         </header>
 
         <div class="blackboard">

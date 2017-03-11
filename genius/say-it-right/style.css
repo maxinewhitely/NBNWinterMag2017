@@ -1,7 +1,6 @@
 article header.article-meta{
     background-color: #E7DAD4;
     color: white;
-    background-image: ;
     text-shadow: 0 0 10px black;
     padding-top: 0;
     padding-bottom: 0;
@@ -22,11 +21,6 @@ video {
   justify-content: center;
 }
 
-.headline {
-  position: absolute;
-  bottom: 0;
-}
-
 .image-left-rescaler{
     float: left;
     margin-left: -100px;
@@ -34,4 +28,23 @@ video {
     width: 200px;
     margin-right: 20px;
     border-right: rgba(169, 199, 230,1) solid 3px;
+}
+
+@media screen and (max-width: 500px) {
+  article header.article-meta{
+    background-color: black;
+    background-size: cover;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 800px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+  video {
+    position: relative;
+    margin-top: 40px;
+  }
+  main article header.article-meta>.photo-byline {
+    bottom: -4em;
+  }
 }

@@ -24,6 +24,10 @@ video {
 @media screen and (max-width: 500px) {
   main article header.article-meta>.photo-byline {
     bottom: -4em;
+    font-size: .5em;
+  }
+  article header .headline h3 {
+    font-size: .8em;
   }
 }
 

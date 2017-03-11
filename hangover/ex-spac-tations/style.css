@@ -28,3 +28,20 @@ video {
   align-items: center;
   margin-left: 0px;
 }
+
+@media screen and (max-width: 500px) {
+  article header.article-meta{
+    background-color: black;
+    background-size: cover;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 800px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+  video {
+    position: relative;
+    margin-top: 40px;
+    z-index: 10000 !important;
+  }
+}

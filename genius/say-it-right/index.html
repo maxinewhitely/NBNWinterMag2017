@@ -20,6 +20,8 @@
 
     <link rel="stylesheet" href="../../universal.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
 
 
 
@@ -70,28 +72,35 @@
         <a id="top"></a>
         <article>
 
-            <header class="article-meta" id="background">
-                <video poster="names.png" autoplay id="myVideo">
+            <header class="article-meta">
+                <video poster="names.png" autoplay playsinline id="myVideo">
                     <source src="name.mp4" type="video/mp4">
                     </video>
                     <div class="overlay-desc" id="displaynone">
-                        <img src="">
                         <div class="headline">
                             <h1 class="hed">Say it right</h1>
                             <h2 class="dek">Students with non-Anglophone names all know the feeling.</h2>
                             <h3 class="byline">By Alex Furuya</h3>
                         </div>
                     </div>
-
+               
                     <p class="photo-byline byline">Video and production by <b>Mia Zanzucchi</b> / North by Northwestern</p>
-
+                </header> 
+                    
                     <script type="text/javascript">
+
                         var vid = document.getElementById("myVideo");
 
-                        vid.addEventListener('playing', function(){
-                            document.getElementById('displaynone').style.display = 'none';
-                            vid.style.filter = 'blur(0px)';
-                        });
+            if ( $(window).width() > 500) {      
+                    vid.addEventListener( 'playing', function(){
+                        document.getElementById('displaynone').style.display = 'none';
+                        vid.style.filter = 'blur(0px)';
+                    })};
+            /*else {
+                     vid.addEventListener( 'playing', function(){
+                            document.getElementById('displaynone').style.display = 'flex';
+                    })
+            };*/
 
             //vid.addEventListener('pause', function(){
            //     document.getElementById('displaynone').src = 'flex';
@@ -99,13 +108,9 @@
          //  });
 
 vid.addEventListener('ended', function(){
-    document.getElementById('myVideo').type = 'image';
-    document.getElementById('myVideo').src = 'names.png';
-    document.getElementById('background').
-    style.background-image =background-image(names.png)
+    document.getElementById('displaynone').style.display = 'flex'
 });
 </script>
-</header>
 
 <div class="blackboard">
     <p class="lead">Furuya. Not with a soft “R” like ribbon, but with a rolled “R” almost like an “L.” There’s no trick in the vowels; it’s pronounced just how it looks and almost rhymes with “Tutu, yeah.” As simple as it is to me, my last name has always been challenging for people to pronounce. I’ve gotten surprising variations of my name – Fur-rai-ya, Fer-ya, even Ferrari. More often than not, when people read my name aloud, they won’t even attempt to pronounce my last name and simply say, “Alex–” as if they were interrupted. Often I just nod, but if they ask, I tell them it is “Foo-ɺoo-ya” (ɺ is a unique Japanese sound pronounced similarly to a rolled "R"). It does not carry a fancy meaning – in fact, the literal Japanese meaning is “old valley.” However, I still feel familial, cultural and personal ties to it. It is my identity, and too often it is butchered.</p>

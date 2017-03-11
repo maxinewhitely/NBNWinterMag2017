@@ -73,7 +73,7 @@
             
         
             <header class="article-meta">
-            <video autoplay id="myVideo">
+            <video autoplay muted playsinline loop id="myVideo">
                 <source src="atp.mp4" type="video/mp4">
             </video>
             <div class="overlay-desc" id="displaynone">
@@ -85,24 +85,15 @@
             </div>
             
             <p class="photo-byline byline">Video by <b>Mia Zanzucchi</b>, production by <b>Maxine Whitely</b> / North by Northwestern</p>
-                
-            <script type="text/javascript">
-            var vid = document.getElementById("myVideo");
 
-           // vid.addEventListener('playing', function(){
-             //   document.getElementById('displaynone').style.display = 'none';
-               // vid.style.filter = 'blur(0px)';
-            //});
-
-            //vid.addEventListener('pause', function(){
-              //  document.getElementById('displaynone').style.display = 'flex';
-                //vid.style.filter = 'blur(5px)';
-            //});
-
-            //vid.addEventListener('ended', function(){
-              //  document.getElementById('displaynone').style.display = 'flex';
-            //});
+             <script src="../../dist/iphone-inline-video.min.js">
+                    var vid = document.getElementById("myVideo");
+                    enableInlineVideo(vid);
+                    enableInlineVideo(video, {
+                        iPad: true
+                    });
             </script>
+
         </header>
             
         <div class="blackboard">

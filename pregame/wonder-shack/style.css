@@ -25,6 +25,9 @@ video {
   main article header.article-meta>.photo-byline {
     bottom: -4em;
   }
+  article header .headline h3 {
+    font-size: .8em;
+  }
 }
 
 .headline {

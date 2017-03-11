@@ -69,7 +69,7 @@
 
 
             <header class="article-meta">
-                <video autoplay muted id="myVideo">
+                <video autoplay muted playsinline id="myVideo">
                     <source src="sex.mp4" type="video/mp4">
                     </video>
                     <div class="overlay-desc" id="displaynone">
@@ -82,6 +82,14 @@
 
                     <p class="photo-byline byline">Video by <b>Mia Zanzucchi</b> / North by Northwestern</p>
                 </header>
+
+                <script src="../../dist/iphone-inline-video.min.js">
+                    var vid = document.getElementById("myVideo");
+                    enableInlineVideo(vid);
+                    enableInlineVideo(video, {
+                        iPad: true
+                    });
+                </script>
 
                 <div class="blackboard">
 
