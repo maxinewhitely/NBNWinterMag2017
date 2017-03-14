@@ -9,12 +9,12 @@ http://apps.northbynorthwestern.com/magazine/2017/winter/
 * [Navigation menus] (http://apps.northbynorthwestern.com/magazine/2017/winter/features/boxed-out/index.html#Systemic) for features articles
 
 ### Goals for Spring 2017 build:
-* Add description to each class on universal CSS styling file
+* Add description to each class in universal CSS
 * Condense article-specific custom styling into one easily accessible document
 * Create instructions for laying out main magazine page with HTML
 * Convert all CSS files to Sass
-* Plan social media strategy and prepare meta tags for each article prior to launch
-* Document build process and enumerate best practices (condensing media files, styling a section consistently, etc.)
 * Add support for Flexbox in Sass
-* Template HTML tagging articles for section editors
+* Plan social media strategy and prepare meta tags for each article prior to launch
+* Document build process and enumerate best practices (compressing media files, styling a mag section consistently)
+* Template out the task of HTML tagging articles for section editors
 * Find system/workflow that best allows editors/designers to collaborate on article styling earlier in the mag-to-web transition
