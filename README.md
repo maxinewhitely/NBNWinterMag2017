@@ -2,11 +2,11 @@
 http://apps.northbynorthwestern.com/magazine/2017/winter/
 
 ### Improvements in this build:
-* Styling for [videos] (http://apps.northbynorthwestern.com/magazine/2017/winter/hangover/burger-king/) in article headers
-* [Video autoplay] (https://github.com/bfred-it/iphone-inline-video) for mobile
-* Integrated [videos and gifs] (http://apps.northbynorthwestern.com/magazine/2017/winter/) on the main magazine page
-* [Flexbox grids] (http://apps.northbynorthwestern.com/magazine/2017/winter/pregame/seabury-unburied/index.html) for photo displays in articles
-* [Navigation menus] (http://apps.northbynorthwestern.com/magazine/2017/winter/features/boxed-out/index.html#Systemic) for features articles
+* Styling for [videos](http://apps.northbynorthwestern.com/magazine/2017/winter/hangover/burger-king/) in article headers
+* [Video autoplay](https://github.com/bfred-it/iphone-inline-video) for mobile
+* Integrated [videos and gifs](http://apps.northbynorthwestern.com/magazine/2017/winter/) on the main magazine page
+* [Flexbox grids](http://apps.northbynorthwestern.com/magazine/2017/winter/pregame/seabury-unburied/index.html) for photo displays in articles
+* [Navigation menus](http://apps.northbynorthwestern.com/magazine/2017/winter/features/boxed-out/index.html#Systemic) for features articles
 
 ### Goals for Spring 2017 build:
 * Add description to each class in universal CSS
